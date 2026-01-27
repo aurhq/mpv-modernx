@@ -1,0 +1,9 @@
+pkg/
+src/
+*.pkg.tar.zst
+*.pkg.tar.*
+*.log
+*.tar.gz
+*.tar.xz
+*.sig
+.SRCINFO
