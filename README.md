@@ -1,23 +1,19 @@
-<center>
+<div align="center">
 
-# mpv-modernx (AUR)
+# mpv-modernx
+AUR package for [ModernX](https://github.com/zydezu/ModernX)
 
-</center>
-
-This is the AUR package for [ModernX][upstream], a fork of mpv-osc-modern.
+</div>
 
 ## Installation
 
-### From [`my-repo`](https://mydehq.github.io/my-repo/) Repo:
+### From [`my-repo`](https://github.com/soymadip/my-repo) Repo
 
 ```bash
-  curl -sL https://mydehq.github.io/my-repo/install | bash
-  sudo pacman -S mpv-modernx 
+  sudo pacman -S mpv-modernx
 ```
 
 ### From AUR
-
-You can install this package using an AUR helper:
 
 ```bash
 paru -S mpv-modernx
@@ -25,17 +21,10 @@ paru -S mpv-modernx
 yay -S mpv-modernx
 ```
 
-### Manually build package
+### Manually
 
 ```bash
 git clone https://aur.archlinux.org/mpv-modernx.git
 cd mpv-modernx
 makepkg -si
 ```
-
-## Upstream Project
-
-- **GitHub**: [zydezu/ModernX][upstream]
-
-
-[upstream]: https://github.com/zydezu/ModernX
